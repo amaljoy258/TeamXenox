@@ -11,12 +11,16 @@ a {
 }
 
 body {
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-color: red;
 }
 
 .bodyWrapper {
   margin: 1% 10% 0% 10%;
+}
+
+.first {
+  width: 100%;
+  height: 100%;
 }
 
 .nav {
@@ -35,6 +39,19 @@ body {
   width: 50%;
   display: inline-block;
   vertical-align: middle;
+}
+
+.s1 {
+  background-image: url(../img/Header_img_final.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 1%;
+}
+
+.s11 {
+  margin: 1% 10% 0% 10%;
+  width: 80%;
+  height: 100%;
 }
 
 .menu {
@@ -79,7 +96,56 @@ body {
   font-weight: 500;
 }
 
+.container {
+  margin: 0% 5% 0% 5%;
+}
+
 .captionParagraph {
   font-size: 1.2vw;
   margin-top: 1%;
+}
+
+.s2 {
+  height: 50%;
+  width: 100%;
+  vertical-align: middle;
+  align-items: center;
+  background-color: white;
+}
+
+.leftSection {
+  width: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.leftSection p {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.rightSection {
+  width: 49%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.rightSection img {
+  width: 100%;
+}
+
+.joinButton {
+  border: 2px #141414 solid;
+  text-align: center;
+  border-radius: 25px;
+  color: #141414;
+  background-color: transparent;
+  padding: 4px 18px 4px 18px;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.communityImg {
+  height: 100%;
+  width: 100%;
 }

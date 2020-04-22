@@ -20,35 +20,75 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
+      integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E="
+      crossorigin="anonymous"
+    />
   </head>
   <!-- Head Section End -->
 
   <!-- Body Start -->
-  <body background="img/Header_img_final.jpg">
-    <div class="bodyWrapper">
-      <div class="nav">
-        <div class="logoSection">
-          <img class="headerLogo" src="img/XenoX logo full white.png" />
-        </div>
-        <div class="menu">
-          <div class="navSection">
-            <button class="navLink">Contact</button>
-            <button class="navLink">Projects</button>
+  <body>
+    <div id="fullPage">
+      <div class="section s1">
+        <div class="s11">
+          <div class="nav">
+            <div class="logoSection">
+              <img class="headerLogo" src="img/XenoX logo full white.png" />
+            </div>
+            <div class="menu">
+              <div class="navSection">
+                <button class="navLink">Contact</button>
+                <button class="navLink">Projects</button>
+              </div>
+            </div>
+          </div>
+          <div class="captionSection">
+            <p class="captionTitle">Team XenoX</p>
+            <p class="captionWord">Home of the Open Source Heroes</p>
+            <p class="captionParagraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
           </div>
         </div>
       </div>
 
-      <div class="captionSection">
-        <p class="captionTitle">Welcome to Team XenoX</p>
-        <p class="captionWord">Home of the Open Source Heroes</p>
-        <p class="captionParagraph">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
-        </p>
+      <div class="section s2">
+        <div class="container">
+          <div class="leftSection">
+            <button class="joinButton">
+              Join our Community of Heroes &#8594;
+            </button>
+            <p class="captionParagraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="rightSection">
+            <img src="img/community_sqr.jpg"
+          </div>
+        </div>
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"
+      integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+      });
+    </script>
   </body>
   <!-- Body End -->
 </html>
