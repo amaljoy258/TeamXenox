@@ -23,10 +23,9 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
-      integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E="
-      crossorigin="anonymous"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"/>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css">
   </head>
   <!-- Head Section End -->
 
@@ -73,24 +72,89 @@
             </p>
           </div>
           <div class="rightSection">
-            <img src="img/community_sqr.jpg"
+            <img src="img/community_sqr.jpg" />
           </div>
         </div>
+      </div>
+
+      <div class="section s3">
+        <div class="container">
+          <center>
+            <img src="img/illus.png" alt="Project Img" />
+
+            <div class="projectSection">
+              <p class="captionParagraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+              <button class="joinButton">
+                Explore Projects &#8594;
+              </button>
+            </div>
+          </center>
+          </div>
+        </div>
+
       </div>
     </div>
 
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"
-      integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk="
-      crossorigin="anonymous"
-    ></script>
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
     <script>
       new fullpage("#fullPage", {
         autoScrolling: true,
         navigation: true,
+        scrollingSpeed: 700,
+        scrollBar: false,
+        keyboardScrolling: true,
+        verticalCentered: true,
         navigationTooltips: ["Home", "Join Us", "Projects"],
+        fadingEffect:true
       });
     </script>
+    <style type="text/css" >
+      .fullpage-wrapper {
+        width: 100%!important;
+        transform: none!important;
+      }
+      
+      .fp-section {
+        width: 100%!important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .7s ease-in-out;
+      }
+      
+      .fp-section.active {
+        visibility: visible;
+        opacity: 1;
+      }
+        
+        fp-slidesContainer {
+        width: 100%!important;
+        transform: none!important;
+      }
+      
+      .fp-slide {
+        width: 100%!important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .7s ease-in-out;
+      }
+      
+      .fp-slide.active {
+        visibility: visible;
+        opacity: 1;
+      }
+      </style>
   </body>
   <!-- Body End -->
 </html>
