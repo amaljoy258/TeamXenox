@@ -149,3 +149,7 @@ body {
   height: 100%;
   width: 100%;
 }
+
+span {
+  background-color: #141414 !important;
+}
