@@ -1,0 +1,50 @@
+@media only screen and (max-width: 800px) {
+  .s1 {
+    background-image: url(../img/214210-P0L8E6-29.jpg);
+  }
+
+  .s11 {
+    margin: 3% 5% 0% 5%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .container1 {
+    width: 100%;
+    display: block;
+  }
+
+  .container2 {
+    width: 100%;
+    display: block;
+  }
+
+  .mainImg {
+    width: 100%;
+  }
+
+  .mainImg img {
+    width: 125%;
+  }
+
+  .captionTitle {
+    font-size: 12vw;
+  }
+
+  .captionWord {
+    font-size: 7vw;
+  }
+
+  .captionParagraph {
+    font-size: 4.5vw;
+    width: 100%;
+  }
+
+  .captionSection {
+    margin-top: 3vh;
+    margin-left: auto;
+    width: 110%;
+  }
+}
