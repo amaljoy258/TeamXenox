@@ -11,32 +11,39 @@ html {
   height: 100%;
   width: 100%;
 }
-
+.container {
+  padding: 0 180px;
+}
 a {
   text-decoration: none;
 }
 
-.first {
-  width: 100%;
-  height: 100%;
-}
-
-.nav {
-  display: inline-block;
+.navbar {
+  display: flex;
   vertical-align: middle;
   width: 100%;
+  position: fixed;
+  top: 20px;
+  z-index: 70;
+  padding: 0 180px;
 }
-
-.navSection {
-  display: inline-block;
-  justify-content: end;
-  vertical-align: middle;
+.nav-item {
+  display: flex;
+  list-style: none;
+  text-align: right;
+  margin-left: auto;
 }
-
-.logoSection {
-  width: 50%;
-  display: inline-block;
-  vertical-align: middle;
+.logo-div {
+  display: flex;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.logo-text {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #fff;
 }
 
 .s1 {
@@ -48,20 +55,14 @@ a {
 }
 
 .s11 {
-  margin: 1% 10% 0% 10%;
-  width: 80%;
-  height: 100%;
-}
-
-.menu {
-  width: 49%;
-  display: inline-grid;
-  vertical-align: middle;
-  justify-content: end;
+  margin: auto;
 }
 
 .headerLogo {
-  width: 8em;
+  width: 38px;
+  height: 38px;
+  margin-top: -9px;
+  margin-right: 10px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -103,7 +104,6 @@ a {
 
 .captionSection {
   color: white;
-  width: 88%;
   margin-top: 16%;
 }
 
@@ -145,21 +145,8 @@ a {
   color: white;
   text-shadow: 2px 5px #141414;
 }
-
-.container1 {
-  width: 50%;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-.container2 {
-  width: 49%;
-  vertical-align: middle;
-  display: inline-block;
-}
 .captionParagraph {
   font-size: 2vw;
-  width: 65%;
   color: rgb(255, 238, 0);
   font-weight: 600;
   text-shadow: 3px 1px red;
@@ -184,20 +171,11 @@ a {
 }
 
 .leftSection p {
-  width: 86%;
   margin-top: 10px;
   font-size: 1.2vw;
-}
-
-.rightSection {
-  width: 49%;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-.rightSection img {
-  width: 48%;
-  display: block;
+  padding: 10px 35px;
+  text-align: center;
+  line-height: 25px;
 }
 
 .joinButton {
@@ -233,37 +211,37 @@ span {
 }
 
 .pngRight {
-  width: 25%;
   display: inline-block;
   vertical-align: middle;
 }
 .pngRight img {
-  height: auto;
-  width: 126%;
+  height: 100%;
+  width: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-
+.dev-image {
+  display: block;
+  margin: auto;
+}
 .devButton {
-  display: inline-block;
-  vertical-align: middle;
-  width: 18%;
-  height: auto;
-  margin-left: 5%;
-  margin-right: 5%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-right: auto;
   box-shadow: 0px 0px 20px #fff;
   border-radius: 15px;
 }
 
 .pngLeft {
   display: inline-block;
-  width: 25%;
   vertical-align: middle;
 }
 
 .pngLeft img {
-  height: auto;
-  width: 114%;
+  height: 100%;
+  width: 100%;
   margin-left: -15%;
   display: inline-block;
   vertical-align: middle;
@@ -278,24 +256,27 @@ span {
 }
 
 .hero {
-  width: 54%;
+  width: 300px;
+  height: 300px;
   display: block;
   height: auto;
   margin-top: -2%;
 }
 
 .hero2 {
-  width: 66%;
+  width: 300px;
   display: block;
-  height: auto;
+  height: 300px;
 }
 
 .footer {
+  position: fixed;
   width: 100%;
   padding: 1% 0% 1% 0%;
   color: rgb(234, 238, 241);
   background-color: #141414;
   text-align: center;
+  bottom: 0;
 }
 
 .contact {
@@ -303,13 +284,9 @@ span {
   color: rgb(255, 226, 61);
 }
 
-.container {
-  width: 100%;
-  margin-top: 10vh;
-}
-
-.containeralt {
-  margin-top: 16vh;
+.d-flex {
+  margin-top: 15vh;
+  display: flex;
 }
 
 .captionPara {
@@ -322,13 +299,12 @@ span {
   font-weight: 900;
   text-shadow: 2px 1px red;
   font-size: 1.7vw;
-  width: 68%;
   margin-top: 18vh;
 }
 
 .blog {
   margin-top: 8vh;
-  width: 80%;
+  display: flex;
 }
 
 .vert-move {
