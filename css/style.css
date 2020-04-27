@@ -1,6 +1,6 @@
 * {
   padding: 0px;
-  margin: 0px;
+  /* margin: 0px; */
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Nunito", sans-serif;
@@ -12,12 +12,14 @@ html {
   width: 100%;
 }
 .container {
-  padding: 0 180px;
+  padding: 130px;
 }
 a {
   text-decoration: none;
 }
-
+.mobile {
+  display: none;
+}
 .navbar {
   display: flex;
   vertical-align: middle;
@@ -44,11 +46,13 @@ ul li {
   font-size: 1.5em;
   font-weight: 800;
   color: #fff;
+  text-align: center;
+  margin: 0;
 }
 
 .s1 {
   background-image: url(../img/1876.jpg);
-  height: 100%;
+  /* height: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,6 +60,8 @@ ul li {
 
 .s11 {
   margin: auto;
+  text-align: center;
+  display: block;
 }
 
 .headerLogo {
@@ -104,11 +110,11 @@ ul li {
 
 .captionSection {
   color: white;
-  margin-top: 16%;
+  /* margin-top: 16%; */
 }
 
 .captionTitle {
-  font-size: 5vw;
+  font-size: 3.5em;
   font-weight: 700;
   color: white;
 }
@@ -116,7 +122,8 @@ ul li {
 .arrow {
   width: 40px;
   height: auto;
-  margin-top: 8%;
+  /* margin-top: 8%;
+   */
 }
 
 .glow {
@@ -140,40 +147,40 @@ ul li {
 }
 
 .captionWord {
-  font-size: 3vw;
+  font-size: 3em;
   font-weight: 500;
   color: white;
   text-shadow: 2px 5px #141414;
 }
 .captionParagraph {
-  font-size: 2vw;
+  font-size: 1.9em;
   color: rgb(255, 238, 0);
   font-weight: 600;
   text-shadow: 3px 1px red;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 }
 
 .s2 {
-  width: 100%;
+  /* width: 100%; */
   vertical-align: middle;
   align-items: center;
   background-image: url(../img/1876fullblur.jpg);
-  height: 100%;
+  /* height: 100%; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.leftSection {
+/* .leftSection {
   width: 100%;
   vertical-align: middle;
   display: inline-block;
-}
+} */
 
 .leftSection p {
-  margin-top: 10px;
-  font-size: 1.2vw;
-  padding: 10px 35px;
+  margin: 30px;
+  font-size: 1.2em;
+  /* padding: 10px 35px; */
   text-align: center;
   line-height: 25px;
 }
@@ -210,16 +217,6 @@ span {
   margin-top: 35px;
 }
 
-.pngRight {
-  display: inline-block;
-  vertical-align: middle;
-}
-.pngRight img {
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-}
 .dev-image {
   display: block;
   margin: auto;
@@ -234,15 +231,9 @@ span {
   border-radius: 15px;
 }
 
-.pngLeft {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.pngLeft img {
+.png img {
   height: 100%;
   width: 100%;
-  margin-left: -15%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -259,14 +250,7 @@ span {
   width: 300px;
   height: 300px;
   display: block;
-  height: auto;
-  margin-top: -2%;
-}
-
-.hero2 {
-  width: 300px;
-  display: block;
-  height: 300px;
+  margin: auto;
 }
 
 .footer {
@@ -285,7 +269,7 @@ span {
 }
 
 .d-flex {
-  margin-top: 15vh;
+  /* margin-top: 15vh; */
   display: flex;
 }
 
@@ -299,14 +283,16 @@ span {
   font-weight: 900;
   text-shadow: 2px 1px red;
   font-size: 1.7vw;
-  margin-top: 18vh;
+  /* margin-top: 18vh; */
 }
 
 .blog {
-  margin-top: 8vh;
+  /* margin-top: 8vh; */
   display: flex;
 }
-
+.blog-section {
+  padding: 0 150px;
+}
 .vert-move {
   -webkit-animation: mover 0.8s 4 alternate;
   animation: mover 0.8s 4 alternate;

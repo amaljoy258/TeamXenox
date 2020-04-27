@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"
@@ -54,12 +54,27 @@
         </li>
       </ul>
     </div>
-
+    <div class="mobile">
+      <a href="https://skynox.tech" class="logo-div">
+        <img class="headerLogo" src="img/xenox.svg" />
+        <p class="logo-text">XenoX</p>
+      </a>
+  <div id="myLinks" class="mobile-link">
+    <a href="#news" class="a-link">Projects</a>
+    <a href="#contact" class="a-link">Contact</a>
+  </div>
+  <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <img src="./img/open-menu.svg" style="width:30px; height: 30px; float:right" onchange="myFunction()">
+  </a> -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     <div id="fullPage">
       <div class="section s1">
         <div class="container">
           <div class="s11">
-            <center>
+            <!-- <center> -->
               <div class="captionSection">
                 <div class="vert-move-title">
                   <p class="captionTitle glow">Team XenoX</p>
@@ -70,7 +85,7 @@
                 </p>
               </div>
               <img class="arrow vert-move" src="img/Arrowtrans.png" />
-            </center>
+            <!-- </center> -->
           </div>
         </div>
       </div>
@@ -80,7 +95,7 @@
           <div class="s11">
             <div class="d-flex">
               <div class="leftSection">
-                <center>
+                <!-- <center> -->
                   <div class="hero-image">
                   <img class="hero" src="img/flame-upgradetrans.png" />
                   </div>
@@ -97,11 +112,11 @@
                     every day. Let's unleash the power of open-source
                     development.
                   </p>
-                </center>
+                <!-- </center> -->
               </div>
               <div class="leftSection">
-                <center>
-                  <img class="hero2" src="img/flame-remote-working.png" />
+                <!-- <center> -->
+                  <img class="hero" src="img/flame-remote-working.png" />
                   <a href="https://github.com/teamxenox">
                     <button class="joinButton">
                       Explore Projects &#8594;
@@ -114,7 +129,7 @@
                     always working on something amazing. We'd love for you to
                     join us! Check out our work.
                   </p>
-                </center>
+                <!-- </center> -->
               </div>
             </div>
           </div>
@@ -123,8 +138,8 @@
         <div class="section s3">
           <div class="container">
           <div class="s11">
-            <center>
-              <div class="container">
+            <!-- <center> -->
+              <div class="blog-section">
                 <p class="captionParaalt">
                   Team XenoX is also looking to add more authors to our
                   publication. If you like writing and have some creative ideas
@@ -136,8 +151,8 @@
                   <button class="joinButton">Read our Blogs &#8594;</button>
                 </div>
                 <div class="blog">
-                  <div class="pngLeft">
-                    <img src="img/xenoxblogleft.png" />
+                  <div class="png">
+                    <img src="img/Group 1.svg" />
                   </div>
                   <a class="dev-image" href="https://dev.to/teamxenox">
                     <img
@@ -146,12 +161,12 @@
                       alt="XenoX's DEV Profile"
                     />
                   </a>
-                  <div class="pngRight">
-                    <img src="img/xenoxblogright.png" />
+                  <div class="png">
+                    <img src="img/Group 2.svg" />
                   </div>
                 </div>
               </div>
-            </center>
+            <!-- </center> -->
           </div>
           </div>
              </div>
@@ -164,6 +179,16 @@
                  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
     <script>
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
       new fullpage("#fullPage", {
         autoScrolling: true,
         navigation: true,
@@ -215,6 +240,9 @@
         opacity: 1;
       }
     </style>
+
+
+
   </body>
   <!-- Body End -->
 </html>
