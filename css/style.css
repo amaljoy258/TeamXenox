@@ -290,8 +290,8 @@ span {
 }
 
 .captionPara {
-  color: black;
-  /* text-shadow: 3px 1px #ff4da6; */
+  color: #fff;
+  text-shadow: 2px 3px black;
   margin: auto;
   text-align: left;
 }
@@ -368,10 +368,10 @@ span {
   height: 100%;
   display: block;
   color: #0000;
-  background: #fff;
+  /* background: #fff; */
   width: auto;
   height: auto;
-  box-shadow: 1px 2px 2px 2px #141414;
+  box-shadow: 1px 2px 2px 2px #fff;
   padding: 30px;
   border-radius: 10px;
   margin: auto;
