@@ -47,9 +47,11 @@
           </a>
         </li>
       </ul>
-      <ul class="nav-item">
+      <ul id="menu" class="nav-item">
         <li>
-          <a href="https://github.com/teamxenox" class="navLink">Projects</a>
+          <a data-menuanchor="secondPage" href="#secondPage" class="navLink"
+            >Projects</a
+          >
         </li>
         <li>
           <a href="https://teamxenox.com/" class="navLink">Contact</a>
@@ -70,7 +72,7 @@
       </a>
     </div>
     <div id="fullPage">
-      <div class="section s1">
+      <div id="section0" class="section s1">
         <div class="container">
           <div class="s11">
             <!-- <center> -->
@@ -83,7 +85,9 @@
                 Come change the world with us.
               </p>
             </div>
-            <img class="arrow vert-move" src="img/Arrowtrans.png" />
+            <a data-menuanchor="secondPage" href="#secondPage">
+              <img id="menu" class="arrow vert-move" src="img/Arrowtrans.png" />
+            </a>
             <!-- </center> -->
           </div>
         </div>
@@ -193,7 +197,34 @@
           </div>
         </div>
       </div> -->
-      <div class="section s2">
+
+      <div id="section1" class="section s2">
+        <div class="container">
+          <div class="s11">
+            <div class="card">
+              <div class="card-body">
+                <img class="hero" src="/img/Project (1).svg" />
+                <div class="card-content">
+                  <p class="captionPara">
+                    Are you passionate about open-source development and looking
+                    to contribute? Team XenoX might just be your calling. We're
+                    take open-source development to the next level, and we're
+                    always working on something amazing. We'd love for you to
+                    join us! Check out our work.
+                  </p>
+                  <a href="https://github.com/teamxenox">
+                    <button class="joinButton">
+                      Explore Projects &#8594;
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="section2" class="section s2">
         <div class="container">
           <div class="s11">
             <div class="card">
@@ -219,32 +250,8 @@
           </div>
         </div>
       </div>
-      <div class="section s2">
-        <div class="container">
-          <div class="s11">
-            <div class="card">
-              <div class="card-body">
-                <img class="hero" src="/img/Project (1).svg" />
-                <div class="card-content">
-                  <p class="captionPara">
-                    Are you passionate about open-source development and looking
-                    to contribute? Team XenoX might just be your calling. We're
-                    take open-source development to the next level, and we're
-                    always working on something amazing. We'd love for you to
-                    join us! Check out our work.
-                  </p>
-                  <a href="https://github.com/teamxenox">
-                    <button class="joinButton">
-                      Explore Projects &#8594;
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section s3">
+
+      <div id="section3" class="section s3">
         <div class="container">
           <div class="s11">
             <div class="blog-section">
@@ -304,6 +311,7 @@
         </div>
       </div>
     </div>
+
     <div class="footer">
       Sponsored by
       <a class="contact" href="http://skynox.tech"> Skynox Tech</a>
@@ -326,7 +334,12 @@
         scrollBar: false,
         keyboardScrolling: true,
         verticalCentered: false,
-        navigationTooltips: ["Home", "Heroes", "Projects", "Blog"],
+        navigationTooltips: ["Home", "Projects", "Community", "Blog"],
+        anchors: ["firstPage", "secondPage", "3rdPage", "4thpage"],
+        menu: "#menu",
+        css3: true,
+        fitToSection: true,
+        recordHistory: true,
       });
     </script>
     <style type="text/css">
