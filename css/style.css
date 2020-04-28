@@ -342,3 +342,6 @@ span {
     transform: translateY(-50px);
   }
 }
+.blog-section-mobile {
+  display: none;
+}
