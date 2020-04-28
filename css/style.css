@@ -27,7 +27,7 @@ a {
   position: fixed;
   top: 20px;
   z-index: 70;
-  padding: 0 180px;
+  padding: 0 50px;
 }
 .nav-item {
   display: flex;
