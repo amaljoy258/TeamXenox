@@ -18,6 +18,10 @@
     display: block;
     margin: auto;
   }
+  .card {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .navbar {
@@ -42,8 +46,8 @@
     padding: 0 70px;
   }
   .hero {
-    width: 160px;
-    height: 160px;
+    /* width: auto;
+    height: 300px; */
     display: block;
     margin: auto;
   }
@@ -83,7 +87,7 @@
 }
 @media only screen and (max-width: 767px) {
   .container {
-    padding: 70px 20px;
+    padding: 90px 20px;
     width: 100%;
     height: 100%;
   }
@@ -155,6 +159,7 @@
     font-size: 1.1em;
   }
 
+  .card-body,
   .blog {
     display: block;
   }
@@ -174,6 +179,9 @@
   }
   .blog {
     margin-top: 50px;
+  }
+  .hero {
+    height: 200px;
   }
 }
 @media only screen and (max-width: 690px) {
@@ -211,12 +219,23 @@
   .captionTitle {
     font-size: 1.7em;
   }
+  .captionPara {
+    font-size: 0.8em;
+    margin-top: 30px;
+  }
   .arrow {
     width: 30px;
     height: auto;
   }
   .captionSection {
     margin-top: 200px;
+  }
+  .hero {
+    height: 150px;
+  }
+  .joinButton {
+    padding: 4px 10px 4px 10px;
+    font-size: 0.8em;
   }
 }
 @media only screen and (max-width: 400px) {
