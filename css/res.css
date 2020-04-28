@@ -153,8 +153,7 @@
   }
   .headerLogo {
     width: 25px;
-    height: 25px;
-    margin-top: 0;
+    margin-top: -18px;
   }
   .logo-text {
     font-size: 1.1em;
