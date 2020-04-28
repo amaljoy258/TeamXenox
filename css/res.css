@@ -33,10 +33,6 @@
   .captionParagraph {
     font-size: 2.4em;
   }
-  .d-flex {
-    display: block;
-    margin-top: 50px;
-  }
 }
 @media only screen and (max-width: 999px) {
   .container {
@@ -158,7 +154,7 @@
   .logo-text {
     font-size: 1.1em;
   }
-  .d-flex,
+
   .blog {
     display: block;
   }
