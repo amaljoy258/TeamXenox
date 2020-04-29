@@ -136,6 +136,18 @@ ul li {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+      0 0 20px #4664e6, 0 0 30px #4664e6, 0 0 40px #4664e6, 0 0 50px #4664e6;
+  }
+
+  to {
+    text-shadow: 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 30px #4664e6, 0 0 40px #4664e6, 0 0 50px #4664e6, 0 0 60px #4664e6;
+  }
+}
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
@@ -272,7 +284,7 @@ span {
 .footer {
   position: fixed;
   width: 100%;
-  padding: 1% 0% 1% 0%;
+  padding: 0.5% 0% 0.5% 0%;
   color: rgb(234, 238, 241);
   background-color: #141414;
   text-align: center;
@@ -312,12 +324,12 @@ span {
   padding: 0 150px;
 }
 .vert-move {
-  -webkit-animation: mover 0.8s 4 alternate;
-  animation: mover 0.8s 4 alternate;
+  -webkit-animation: mover 0.8s 2 alternate;
+  animation: mover 0.8s 2 alternate;
 }
 .vert-move {
-  -webkit-animation: mover 0.8s 4 alternate;
-  animation: mover 0.8s 4 alternate;
+  -webkit-animation: mover 0.8s 2 alternate;
+  animation: mover 0.8s 2 alternate;
 }
 @-webkit-keyframes mover {
   0% {
