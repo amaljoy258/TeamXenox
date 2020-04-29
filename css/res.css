@@ -178,6 +178,10 @@
   .hero {
     height: 200px;
   }
+  .blog-section-1 p {
+    margin: 10px 0;
+    font-size: 1em;
+  }
 }
 @media only screen and (max-width: 690px) {
   .captionParagraph {
