@@ -146,24 +146,24 @@ ul li {
 @keyframes glow {
   from {
     text-shadow: 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
-      0 0 20px #4664e6, 0 0 30px #4664e6, 0 0 40px #4664e6, 0 0 50px #4664e6;
+      0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
   }
 
   to {
     text-shadow: 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 30px #4664e6, 0 0 40px #4664e6, 0 0 50px #4664e6, 0 0 60px #4664e6;
+      0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff;
   }
 }
 
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #ff4da6, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
-      0 0 20px #4664e6, 0 0 30px #4664e6, 0 0 40px #4664e6, 0 0 50px #4664e6;
+      0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff;
   }
 
   to {
     text-shadow: 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 30px #4664e6, 0 0 40px #4664e6, 0 0 50px #4664e6, 0 0 60px #4664e6;
+      0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff;
   }
 }
 
