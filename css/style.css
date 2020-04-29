@@ -118,6 +118,8 @@ ul li {
 .captionSection {
   color: white;
   /* margin-top: 16%; */
+  display: grid;
+  margin-top: auto;
 }
 
 .captionTitle {
