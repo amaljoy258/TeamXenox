@@ -224,7 +224,7 @@
 
 @media only screen and (max-width: 450px) {
   .captionTitle {
-    font-size: 7vw;
+    font-size: 8vw;
     margin-top: 60%;
   }
 
@@ -251,8 +251,9 @@
 
   .blog-section-1 p {
     margin: 2px;
-    font-size: 4vw;
+    font-size: 4.5vw;
     line-height: 150%;
+    text-align: justify;
   }
 
   .blog-section-1 {
@@ -265,10 +266,7 @@
 
   .blog-section p {
     margin: 0% 8%;
-  }
-
-  .blog-section p {
-    margin-top: 18%;
+    margin-top: 7%;
     font-size: 5vw !important;
   }
 }
