@@ -18,10 +18,6 @@
     display: block;
     margin: auto;
   }
-  .card {
-    margin-top: auto;
-    margin-bottom: auto;
-  }
 }
 @media only screen and (max-width: 1024px) {
   .navbar {
@@ -154,7 +150,6 @@
     font-size: 1.1em;
   }
 
-  .card-body,
   .blog {
     display: block;
   }
