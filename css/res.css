@@ -50,6 +50,23 @@
     padding: 8%;
   }
 
+  .imgSection {
+    width: 100%;
+    display: block;
+  }
+
+  .hero {
+    width: 50%;
+  }
+
+  .captionBlock {
+    width: 100%;
+  }
+
+  .blog-section-1 p {
+    font-size: 2.5vw;
+  }
+
   .navbar {
     display: none;
   }
@@ -128,6 +145,7 @@
   .captionWord {
     margin-top: -4%;
     font-size: 5vw;
+    text-shadow: 2px 1px #141414;
   }
 
   .captionParagraph {
@@ -152,9 +170,32 @@
 
   .captionParagraph {
     font-size: 4vw;
+    text-shadow: 1px 1px red;
   }
 
   .arrow {
     margin-top: -5%;
+  }
+
+  .hero {
+    width: 95%;
+  }
+
+  .blogButton {
+    margin-top: 15px;
+  }
+
+  .blog-section-1 p {
+    margin: 2px;
+    font-size: 4vw;
+    line-height: 150%;
+  }
+
+  .blog-section-1 {
+    margin-top: 15%;
+  }
+
+  .altmobimg {
+    width: 88%;
   }
 }
