@@ -201,11 +201,10 @@ ul li {
 } */
 
 .blog-section p {
-  margin: 30px;
+  margin: 0% 20%;
   text-align: center;
-  line-height: 25px;
   font-weight: 900;
-  font-size: 1.4vw;
+  font-size: 1.4vw !important;
 }
 .blog-section-1 p {
   margin: 30px;
@@ -326,15 +325,18 @@ span {
   font-weight: 900;
   text-shadow: 2px 1px black;
   font-size: 1.7vw !important;
-  /* margin-top: 18vh; */
 }
 
 .blog {
   /* margin-top: 8vh; */
   display: flex;
+  width: 58%;
+  margin: auto;
 }
+
 .blog-section {
-  padding: 0 150px;
+  width: 100%;
+  margin-top: 13%;
 }
 .vert-move {
   -webkit-animation: mover 0.8s 2 alternate;

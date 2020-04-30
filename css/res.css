@@ -30,6 +30,16 @@
   .arrow {
     width: 35px;
   }
+
+  .blog-section p {
+    font-size: 2.1vw !important;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .blog-section p {
+    margin-top: 5%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -70,9 +80,11 @@
   .navbar {
     display: none;
   }
+
   .logo-div {
     display: flex !important;
   }
+
   .mobile {
     overflow: hidden;
     background-color: transparent;
@@ -97,6 +109,7 @@
     font-size: 17px;
     display: block;
   }
+
   .mobile a {
     position: fixed;
     top: 0;
@@ -105,10 +118,12 @@
     display: block;
     left: 0;
   }
+
   .fa-bars {
     color: #fff;
     float: right;
   }
+
   .mobile .a-link {
     background: transparent;
     display: block;
@@ -127,12 +142,48 @@
     /* background-color: #4caf50; */
     color: #000;
   }
+
   .headerLogo {
     width: 25px;
     margin-top: -18px;
   }
+
   .logo-text {
     font-size: 1.1em;
+  }
+
+  .png {
+    display: none;
+  }
+
+  .blog-section-mobile {
+    display: block;
+  }
+
+  .blog-section-mobile img {
+    width: 50%;
+  }
+
+  .blog-section p {
+    margin-top: 0px;
+    font-size: 2.9vw !important;
+  }
+
+  .blog-section {
+    margin-top: 0px;
+  }
+
+  .blog {
+    display: block;
+    width: auto;
+  }
+
+  .altbtn {
+    display: none;
+  }
+
+  .blog-section-mobile img {
+    width: 65%;
   }
 }
 
@@ -155,6 +206,19 @@
 
   .arrow {
     margin-top: 2%;
+  }
+
+  .blog-section-mobile img {
+    width: 85%;
+  }
+
+  .blog-section p {
+    margin: 0% 14%;
+  }
+
+  .blog-section p {
+    margin-top: 12%;
+    font-size: 3.5vw !important;
   }
 }
 
@@ -197,5 +261,20 @@
 
   .altmobimg {
     width: 88%;
+  }
+
+  .blog-section p {
+    margin: 0% 8%;
+  }
+
+  .blog-section p {
+    margin-top: 18%;
+    font-size: 5vw !important;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .blog-section {
+    margin-top: 16%;
   }
 }
