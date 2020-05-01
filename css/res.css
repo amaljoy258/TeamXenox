@@ -185,6 +185,10 @@
   .blog-section-mobile img {
     width: 65%;
   }
+
+  .s11 {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 626px) {
@@ -220,6 +224,10 @@
     margin-top: 12%;
     font-size: 3.5vw !important;
   }
+
+  .s11 {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -253,7 +261,6 @@
     margin: 2px;
     font-size: 4.5vw;
     line-height: 150%;
-    text-align: justify;
   }
 
   .blog-section-1 {
@@ -268,6 +275,14 @@
     margin: 0% 8%;
     margin-top: 7%;
     font-size: 5vw !important;
+  }
+
+  span {
+    display: none !important;
+  }
+
+  .s11 {
+    opacity: 1;
   }
 }
 
