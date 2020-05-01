@@ -224,10 +224,6 @@
     margin-top: 12%;
     font-size: 3.5vw !important;
   }
-
-  .s11 {
-    opacity: 1;
-  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -279,10 +275,6 @@
 
   span {
     display: none !important;
-  }
-
-  .s11 {
-    opacity: 1;
   }
 }
 
