@@ -100,6 +100,7 @@
     height: 150px;
     background-color: #2b124e;
     margin-top: 17px;
+    transition: transform 0.5s ease-in;
   }
 
   .mobile a {
@@ -130,12 +131,13 @@
     position: relative;
     right: 0;
     top: 45px;
-    left: 0;
+    left: 0px;
   }
 
   .mobile a:hover {
     background-color: transparent;
-    color: black;
+    color: rgb(255, 217, 0);
+    border: 1px rgb(45, 0, 87) solid;
   }
 
   .active {

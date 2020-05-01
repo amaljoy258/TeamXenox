@@ -97,6 +97,11 @@ ul li {
   position: relative;
 }
 
+.altlink {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .navLink:hover {
   background-color: #141414;
   color: #fff;
@@ -254,6 +259,11 @@ ul li {
 
 span {
   background-color: #ffb400 !important;
+}
+
+#fp-nav ul li .fp-tooltip {
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 900 !important;
 }
 
 .projectSection {
