@@ -88,7 +88,7 @@
   .mobile {
     overflow: hidden;
     background-color: transparent;
-    position: relative;
+    position: absolute;
     margin-top: -17px;
     display: block;
     z-index: 1;
@@ -97,10 +97,9 @@
 
   .mobile #myLinks {
     display: none;
-    height: 150px;
-    background-color: #2b124e;
+    height: 32vh;
+    background-color: #2b124e88;
     margin-top: 17px;
-    transition: transform 0.5s ease-in;
   }
 
   .mobile a {
@@ -135,7 +134,7 @@
   }
 
   .mobile a:hover {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.089);
     color: rgb(255, 217, 0);
     border: 1px rgb(45, 0, 87) solid;
   }
