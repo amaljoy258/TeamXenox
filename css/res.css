@@ -101,7 +101,7 @@
 
   .mobile #myLinks {
     display: none;
-    height: 32vh;
+    height: 200px;
     background-color: #2b124e88;
     margin-top: 17px;
   }
@@ -285,7 +285,7 @@
   }
 
   .altmobimg {
-    width: 88%;
+    width: 74%;
   }
 
   .blog-section p {
