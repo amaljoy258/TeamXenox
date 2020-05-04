@@ -43,6 +43,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .s1 {
+    background-image: url(../img/bg_mobile.png);
+  }
+
   .captionTitle {
     font-size: 2.5em;
     margin-top: 26%;
@@ -104,6 +108,7 @@
 
   .mobile a {
     color: #fff;
+    text-shadow: 1px 1px black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -135,7 +140,7 @@
 
   .mobile a:hover {
     background-color: rgba(255, 255, 255, 0.089);
-    color: rgb(255, 217, 0);
+    color: rgb(255, 238, 0);
     border: 1px rgb(45, 0, 87) solid;
   }
 
@@ -188,6 +193,22 @@
 
   .s11 {
     opacity: 1;
+  }
+
+  .icon {
+    margin-left: 87%;
+  }
+  .icon:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+
+  .logo-div {
+    margin-right: 67%;
+  }
+  .logo-div:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
   }
 }
 
@@ -246,7 +267,7 @@
   }
 
   .hero {
-    width: 95%;
+    width: 85%;
   }
 
   .blogButton {
