@@ -150,7 +150,8 @@
 
   .headerLogo {
     width: 25px;
-    margin-top: -18px;
+    height: 25px;
+    /* margin-top: -18px; */
   }
 
   .logo-text {

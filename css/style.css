@@ -73,9 +73,9 @@ ul li {
 }
 
 .headerLogo {
-  width: 26px;
-  height: auto;
-  margin-top: -14px;
+  width: 32px;
+  height: 32px;
+
   margin-right: 6px;
   display: inline-block;
   vertical-align: middle;
