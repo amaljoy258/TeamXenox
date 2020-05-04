@@ -73,10 +73,10 @@ ul li {
 }
 
 .headerLogo {
-  width: 32px;
-  /* height: 38px; */
-  margin-top: -25px;
-  margin-right: 10px;
+  width: 26px;
+  height: auto;
+  margin-top: -14px;
+  margin-right: 6px;
   display: inline-block;
   vertical-align: middle;
 }
