@@ -301,8 +301,12 @@ span {
 }
 
 .hero {
-  width: 100%;
+  width: 80%;
   margin: auto;
+}
+
+.project {
+  width: 90%;
 }
 
 .footer {
