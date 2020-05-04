@@ -187,6 +187,11 @@
     display: none;
   }
 
+  .altbtnmobile {
+    margin-top: 10px;
+    display: block;
+  }
+
   .blog-section-mobile img {
     width: 65%;
   }
