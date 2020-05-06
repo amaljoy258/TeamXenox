@@ -468,6 +468,7 @@ span {
   display: none;
 }
 
-button:active {
+button:focus {
   outline: none;
+  box-shadow: none;
 }
