@@ -433,16 +433,6 @@ span {
   display: none;
 }
 .card {
-  /* width: 100%;
-  height: 100%;
-  display: block;
-  color: #0000; */
-  /* background: #fff; */
-  /* width: auto;
-  height: auto;
-  box-shadow: 1px 2px 2px 2px #fff;
-  padding: 30px;
-  border-radius: 10px; */
   margin: auto;
   margin-top: auto;
   margin-bottom: auto;
@@ -469,6 +459,11 @@ span {
   vertical-align: middle;
 }
 
-.altbtnmobile {
+.altbtn {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.devmob {
   display: none;
 }
